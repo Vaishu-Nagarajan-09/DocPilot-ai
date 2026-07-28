@@ -1,6 +1,7 @@
 # 🤖 DocPilot AI
 
-An AI-powered document assistant built using the MERN Stack.
+An AI-powered document assistant built using the MERN Stack.It allows users to register, log in securely, choose subscription plans, and access a responsive dashboard with protected routes.
+
 
 ## 🚀 Features
 - User Registration & Login
