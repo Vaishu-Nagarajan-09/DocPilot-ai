@@ -1,0 +1,319 @@
+body{
+    background-color: #0D0B1A !important;
+}
+
+.ai-navbar{
+    background:#1A1330;
+    border-radius:5px;
+    width: 102%;
+    padding: 10px;
+    margin-bottom: 20px;
+    
+}
+.ai-page{
+    background: #0D0B1A;
+    display:flex;
+    align-items:center;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+.ai-card{
+    background:#1A1330;
+    border:1px solid #7C3AED;
+    border-radius:25px;
+    box-shadow:0 0 35px rgba(124,58,237,.25);
+    overflow:hidden;
+    color: white;
+    width: 100%;
+    max-width: 950px;
+    margin: auto;
+   
+}
+.left-content{
+    padding: 0px;
+}
+
+.right-content{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.robot-side{
+    width:100%;
+    max-width:450px;
+    height:auto;
+    filter:drop-shadow(0 0 30px rgba(124,58,237,.45));
+    margin-top: -30px;
+}
+
+.ai-btn{
+    height:45px;
+    background-color: #8a3bd3;
+    color:white;
+    border:none;
+    border-radius:12px;
+    cursor:pointer;
+}
+
+.ai-btn:hover {
+   background: linear-gradient(90deg, #7C3AED, #A855F7);
+   
+}
+
+.ai-txt {
+    color: #A855F7;
+    text-align: left;
+    margin-bottom: 15px;
+}
+
+.ai-input{
+    height:45px;
+    background:#0D0B1A !important;
+    color:white !important;
+    border:1px solid #3B2A68 !important;
+    border-radius:12px;
+}
+.ai-input:focus{
+    background:#0D0B1A !important;
+    color:white !important;
+    border-color:#7C3AED !important;
+    box-shadow:none !important;
+    outline:none !important;
+}
+.ai-check{
+    border: 2px solid #A855F7;
+    background-color: #0D0B1A !important;
+}
+.ai-check:checked{
+    background-color: #A855F7 !important;
+
+}
+.ai-check:focus{
+    border:none !important;
+    outline: none !important ;
+}
+
+.ai-para {
+    color: var(--text);
+}
+
+.title{
+    color: #A855F7;
+}
+
+.link-log{
+    color: #A855F7;
+}
+
+.password-show{
+    position:relative;
+}
+
+
+.password-show span{
+    position:absolute;
+    right:15px;
+    top:40px;
+    cursor:pointer;
+}
+
+/* login page ui */
+.login-robot{
+    width: 350px;
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    filter: drop-shadow(0 0 20px rgba(124,58,237,.45));
+    margin-bottom: 10px;
+}
+.ai-logo{
+    color:#A855F7;
+    font-weight:700;
+}
+.robot-wrapper{
+    position: relative;
+    z-index: 1;
+}
+.ai-log-card{
+    background:#1A1330;
+    border:1px solid #7C3AED;
+    border-radius:25px;
+    box-shadow:0 0 35px rgba(124,58,237,.25);
+    overflow:hidden;
+    color: white;
+    margin-top:-110px;   
+    position:relative;
+    z-index:2;
+}
+.ai-text{
+    color: white;
+}
+.btn-log {
+    color: var(--text);
+    background-color: #8a3bd3;
+    border: 2px solid #A855F7;
+    border-radius: 10px;
+    padding: 5px;
+    font-size: large;
+}
+
+.btn-log:hover {
+    background: linear-gradient(90deg, #7C3AED, #A855F7);
+}
+
+.robot-side1{
+    width: 100%;
+    max-width: 350px;
+}
+
+/* pricing ui */
+.ai-card1 {
+    background:#1A1330;
+    border:1px solid #7C3AED;
+    border-radius:15px;
+    box-shadow:0 0 35px rgba(124,58,237,.25);
+    overflow:hidden;
+    color:white;
+    width:100%;
+    max-width:950px;
+    margin:auto;
+    display:flex;
+    flex-direction:column;
+    min-height:450px;   /* important */
+}
+.card-body1 {
+    display:flex;
+    flex-direction:column;
+    flex:1;
+}
+.basic-box{
+    position: relative;
+    text-align: center;
+}
+.basic-box .bi-send-arrow-up-fill {
+   color:  #b57fe8;
+    filter: drop-shadow(0 0 20px rgba(124,58,237,.45));
+
+}
+.basic-box .bi-star {
+    color: #b57fe8; 
+    filter: drop-shadow(0 0 20px rgba(124,58,237,.45));
+}
+
+.basic-box .bi-gem {
+    color: #b57fe8;
+    filter: drop-shadow(0 0 20px rgba(124,58,237,.45));
+}
+.arrow{
+    display: block;
+    font-size: 25px;
+    margin-top: 15px;
+}
+.card-body1 p i {
+    color: #00d26a;
+    margin-right: 5px;
+    font-size: 20px;
+    font-weight: bolder;
+    padding: 10px;
+}
+.btn-chk{
+    color: var(--text);
+    background-color: #8a3bd3;
+    border: 2px solid #A855F7;
+    border-radius: 5px;
+    padding: 5px;
+    font-size: large;
+    margin-top: auto;
+    
+}
+.btn-chk:hover{
+    background: linear-gradient(90deg, #7C3AED, #A855F7);
+}
+
+
+/* dashboard ui */
+.ai-navbar1{
+    background:#1A1330;
+    color: var(--text);
+    border-radius:5px;
+    width: 102%;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+.ai-navbar1 .btn{
+    color: var(--text);
+    background-color: #8a3bd3;
+    border: 2px solid #A855F7;
+    border-radius: 5px;
+    padding: 5px;
+    font-size: large;
+    margin-top: auto;
+}
+.ai-navbar1 .btn:hover{
+    background: linear-gradient(90deg, #7C3AED, #A855F7);
+    
+}  
+
+/* uploadsection ui */
+.ai-cd{
+    background:#1A1330 !important;
+    border:1px solid #7C3AED !important;
+    border-radius:15px;
+    box-shadow:0 0 35px rgba(124,58,237,.25);
+    color:#7C3AED !important;
+    margin:10px;
+}
+.ai-cd input{
+    background:#1A1330 !important;
+    color: white;
+}
+.file-input{
+    border: 1px solid #A855F7 !important;
+    box-shadow: none !important;
+    color: var(--text) !important;
+}
+.file-input::file-selector-button{
+    background:#1A1330 !important;
+    color: white !important;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.file-input::file-selector-button{
+    background-color: #8a3bd3 !important;
+}
+.btn-cd{ 
+    background-color: #8a3bd3;
+    color: var(--text);
+    border: 2px solid #A855F7;
+    border-radius: 5px;
+    padding: 5px;
+    font-size: large;
+    margin-top: 15px;
+
+}
+.btn-cd:hover{
+    background: linear-gradient(90deg, #7C3AED, #A855F7);
+}
+
+/* chatcard ui */
+.txt-input{
+    border: 1px solid #A855F7 !important;
+    box-shadow: none !important;
+    color: white !important;
+}
+.txt-input::placeholder{
+    color: white !important;
+}
+.btn-cd1{
+    background-color: #8a3bd3;
+    color: var(--text) !important;
+    border: 2px solid #A855F7;
+    border-radius: 5px;
+    padding: 5px;
+    font-size: large;
+    margin-top: 10px;
+}
+.btn-cd1{
+    background: linear-gradient(90deg, #7C3AED, #A855F7);
+}
