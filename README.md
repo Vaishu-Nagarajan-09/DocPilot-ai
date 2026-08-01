@@ -6,6 +6,17 @@ DocPilot AI is a prototype document application developed using the MERN Stack. 
 
 The project focuses on implementing full-stack development concepts including JWT authentication, protected routes, REST APIs, and frontend-backend integration.
 
+## Screenshots
+
+### Registration Page
+![Registration Page](screenshots/RegistrationPage.png)
+
+### Login Page
+![Login Page](Screenshots/LoginPage.png)
+
+### Dashboard Page
+![Dashboard Page](screenshots/DashBoard.png)
+
 ## Installation and Setup
 
 ### Clone Repository
