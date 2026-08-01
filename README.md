@@ -9,13 +9,13 @@ The project focuses on implementing full-stack development concepts including JW
 ## Screenshots
 
 ### Registration Page
-![Registration Page](screenshots/RegistrationPage.png)
+![RegistrationPage](screenshots/RegistrationPage.png)
 
 ### Login Page
-![Login Page](Screenshots/LoginPage.png)
+![LoginPage](Screenshots/LoginPage.png)
 
 ### Dashboard Page
-![Dashboard Page](screenshots/DashBoard.png)
+![Dashboard](screenshots/DashBoard.png)
 
 ## Installation and Setup
 
