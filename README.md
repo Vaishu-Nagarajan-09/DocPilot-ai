@@ -25,12 +25,16 @@ git clone https://github.com/Vaishu-Nagarajan-09/DocPilot-ai.git
 
 ### Frontend Setup
 cd frontend
+
 npm install
+
 npm run dev
 
 ### Backend Setup
 cd backend
+
 npm install 
+
 npm run dev
 
 ## Environment Variables
