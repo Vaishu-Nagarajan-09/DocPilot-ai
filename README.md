@@ -1,12 +1,12 @@
 # 🤖 DocPilot AI - Prototype Document Application
 
-## About Project
+## About Project:
 
 DocPilot AI is a prototype document application developed using the MERN Stack. It provides a user-friendly platform with secure authentication, subscription plan selection, and a responsive dashboard to manage document-related tasks.
 
 The project focuses on implementing full-stack development concepts including JWT authentication, protected routes, REST APIs, and frontend-backend integration.
 
-## Screenshots
+## Screenshots:
 
 ### Registration Page
 ![Registration Page](Frontend/src/Screenshots/RegistrationPage.png)
@@ -17,7 +17,7 @@ The project focuses on implementing full-stack development concepts including JW
 ### Dashboard Page
 ![Dashboard](Frontend/src/Screenshots/DashBoard.png)
 
-## Installation and Setup
+## Installation and Setup:
 
 ### Clone Repository
 
@@ -37,7 +37,7 @@ git clone https://github.com/Vaishu-Nagarajan-09/DocPilot-ai.git
 
 - npm run dev
 
-## Environment Variables
+## Environment Variables:
 
 Create a `.env` file inside the backend folder:
 
@@ -69,8 +69,8 @@ JWT_SECRET=your_secret_key
 - Responsive Dashboard
 - REST API Integration
   
-## Live Demo
+## Live Demo:
 [DocPilot AI](https://docpilot-ai-ass.netlify.app/)
 
-## Author
+## Author:
 Vaishnavi N N
