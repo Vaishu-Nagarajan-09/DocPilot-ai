@@ -9,10 +9,10 @@ The project focuses on implementing full-stack development concepts including JW
 ## Screenshots
 
 ### Registration Page
-![RegistrationPage](Frontend/src/Screenshots/RegistrationPage.png)
+![Registration Page](Frontend/src/Screenshots/RegistrationPage.png)
 
 ### Login Page
-![LoginPage](Frontend/src/Screenshots/LoginPage.png)
+![Login Page](Frontend/src/Screenshots/LoginPage.png)
 
 ### Dashboard Page
 ![Dashboard](Frontend/src/Screenshots/DashBoard.png)
@@ -21,28 +21,27 @@ The project focuses on implementing full-stack development concepts including JW
 
 ### Clone Repository
 
-git clone https://github.com/Vaishu-Nagarajan-09/DocPilot-ai
+git clone https://github.com/Vaishu-Nagarajan-09/DocPilot-ai.git
 
 ### Frontend Setup
-
 cd frontend
-
 npm install
-
 npm run dev
 
 ### Backend Setup
-
 cd backend
-
 npm install 
+npm run dev
 
-npm i nodemon
+## Environment Variables
 
-nodemon
+Create a `.env` file inside the backend folder:
 
+MONGO_URI=your_mongodb_connection_string
 
-## 🛠️Technologies Used
+JWT_SECRET=your_secret_key
+
+## Technologies Used:
 ### Frontend
 - React.js
 - JavaScript
@@ -58,7 +57,7 @@ nodemon
 - GitHub
 - Postman
 
-## 🚀Features
+## Features:
 - User Registration & Login
 - JWT Authentication
 - Protected Routes
@@ -66,8 +65,8 @@ nodemon
 - Responsive Dashboard
 - REST API Integration
   
-## 🌐 Live Demo
-https://docpilot-ai-ass.netlify.app/
+## Live Demo
+[DocPilot AI](https://docpilot-ai-ass.netlify.app/)
 
-## 👩‍💻 Author
+## Author
 Vaishnavi N N
