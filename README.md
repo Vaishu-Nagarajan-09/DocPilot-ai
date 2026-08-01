@@ -24,18 +24,18 @@ The project focuses on implementing full-stack development concepts including JW
 git clone https://github.com/Vaishu-Nagarajan-09/DocPilot-ai.git
 
 ### Frontend Setup
-cd frontend
+- cd frontend
 
-npm install
+- npm install
 
-npm run dev
+- npm run dev
 
 ### Backend Setup
-cd backend
+- cd backend
 
-npm install 
+- npm install 
 
-npm run dev
+- npm run dev
 
 ## Environment Variables
 
