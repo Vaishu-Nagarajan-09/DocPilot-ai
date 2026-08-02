@@ -9,7 +9,7 @@ The project focuses on implementing full-stack development concepts including JW
 ## Screenshots:
 
 ### Registration Page
-![Registration Page](Frontend/src/Screenshots/RegistrationPage.png)
+![Registration Page](Frontend/src/Screenshots/LoginPage.png)
 
 ### Login Page
 ![Login Page](Frontend/src/Screenshots/LoginPage.png)
