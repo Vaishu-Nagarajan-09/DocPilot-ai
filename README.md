@@ -1,37 +1,51 @@
 # 🤖 DocPilot AI - Prototype Document Application
 
-## About Project
+## About Project:
 
 DocPilot AI is a prototype document application developed using the MERN Stack. It provides a user-friendly platform with secure authentication, subscription plan selection, and a responsive dashboard to manage document-related tasks.
 
 The project focuses on implementing full-stack development concepts including JWT authentication, protected routes, REST APIs, and frontend-backend integration.
 
-## Installation and Setup
+## Screenshots:
+
+### Registration Page
+![Registration Page](Frontend/src/Screenshots/RegistrationPage.png)
+
+### Login Page
+![Login Page](Frontend/src/Screenshots/LoginPage.png)
+
+### Dashboard Page
+![Dashboard](Frontend/src/Screenshots/DashBoard.png)
+
+## Installation and Setup:
 
 ### Clone Repository
 
-git clone https://github.com/Vaishu-Nagarajan-09/DocPilot-ai
+git clone https://github.com/Vaishu-Nagarajan-09/DocPilot-ai.git
 
 ### Frontend Setup
+- cd frontend
 
-cd frontend
+- npm install
 
-npm install
-
-npm run dev
+- npm run dev
 
 ### Backend Setup
+- cd backend
 
-cd backend
+- npm install 
 
-npm install 
+- npm run dev
 
-npm i nodemon
+## Environment Variables:
 
-nodemon
+Create a `.env` file inside the backend folder:
 
+MONGO_URI=your_mongodb_connection_string
 
-## 🛠️Technologies Used
+JWT_SECRET=your_secret_key
+
+## Technologies Used:
 ### Frontend
 - React.js
 - JavaScript
@@ -47,7 +61,7 @@ nodemon
 - GitHub
 - Postman
 
-## 🚀Features
+## Features:
 - User Registration & Login
 - JWT Authentication
 - Protected Routes
@@ -55,8 +69,8 @@ nodemon
 - Responsive Dashboard
 - REST API Integration
   
-## 🌐 Live Demo
-https://docpilot-ai-ass.netlify.app/
+## Live Demo:
+[DocPilot AI](https://docpilot-ai-ass.netlify.app/)
 
-## 👩‍💻 Author
+## Author:
 Vaishnavi N N
