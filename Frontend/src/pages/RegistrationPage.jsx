@@ -41,7 +41,7 @@ function RegistrationPage() {
 
 
         try {
-            const response = await axios.post(`${import.meta.env.VITE_API_URL}/registration/verify`,
+            const response = await axios.post('https://docpilot-ai-backend-rdwn.onrender.com/registration/verify',
                 {
                     user: formData
                 }
