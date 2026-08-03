@@ -27,7 +27,7 @@ const DataSubmission = () => {
 
     const callApi = async () => {
         try {
-            const response = await axios.post('http://localhost:3000/submission/userSubmit', completeObjectData);
+            const response = await axios.post('https://docpilot-ai-backend-rdwn.onrender.com/submission/userSubmit', completeObjectData);
     
             //keep loading screen visible for 3 seconds
             setTimeout(() => {

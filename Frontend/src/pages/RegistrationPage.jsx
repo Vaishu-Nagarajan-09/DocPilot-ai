@@ -41,7 +41,7 @@ function RegistrationPage() {
 
 
         try {
-            const response = await axios.post('http://localhost:3000/registration/verify',
+            const response = await axios.post('https://docpilot-ai-backend-rdwn.onrender.com/registration/verify',
                 {
                     user: formData
                 }
