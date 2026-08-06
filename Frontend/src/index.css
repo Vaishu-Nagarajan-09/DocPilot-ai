@@ -81,6 +81,15 @@ body{
     box-shadow:none !important;
     outline:none !important;
 }
+.ai-input:-webkit-autofill,
+.ai-input:-webkit-autofill:hover,
+.ai-input:-webkit-autofill:focus,
+.ai-input:-webkit-autofill:active {
+    -webkit-box-shadow: 0 0 0 1000px #0D0B1A inset !important;
+    -webkit-text-fill-color: white !important;
+    caret-color: white !important;
+    transition: background-color 99999s ease-in-out 0s;
+}
 .ai-check{
     border: 2px solid #A855F7;
     background-color: #0D0B1A !important;
